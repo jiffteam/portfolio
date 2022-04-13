@@ -109,11 +109,13 @@ body{
     transform: translate(-50%, -50%);
 }
 
-.icons{
-    width: 50%;
-    height: 50%;
-    object-fit: contain;
 
+.img{
+    display: flex;
+    justify-content: center;
+    max-width: auto;
+    max-height: auto;
+    object-fit: contain;
 }
 
 .site-banner .banner-area .author .author-img{
