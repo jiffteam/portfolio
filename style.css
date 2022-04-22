@@ -4,7 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #b7b7a4 ;
+    background-color: #a5a58d;
 }
 
 :root{
@@ -28,16 +28,16 @@ body{
 }
 
 .font-size-40{
-    font-size: 40px;
+    font-size: 60px;
 }
 .font-size-34{
-    font-size: 34px;
+    font-size: 40px;
 }
 .font-size-27{
-    font-size: 27px;
+    font-size: 35px;
 }
 .font-size-20{
-    font-size: 20px;
+    font-size: 25px;
 }
 .font-size-16{
     font-size: 16px;
@@ -94,24 +94,28 @@ body{
 
 
 .site-banner .banner-area{
-    background: url('./assets/kam.jpg') no-repeat;
+    background: url('./assets/kam2.jpg') no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     position: relative;
 }
 
 .site-banner .banner-area .author{
-    margin: 0;
+    margin: 50;
     position: absolute;
-    top: 45%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 .ul{
-    align-self: baseline;
+    align-self: center;
 }
-
+.h1{
+    align-self: center;
+    justify-content: center;
+}
 
 .img{
     display: flex;
@@ -129,6 +133,20 @@ body{
     background: url(./assets/kam.jpg) no-repeat;
     background-size: 200%;
     background-position: 80% 0;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    object-fit: contain;
+    
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    object-fit: contain;
+    
 }
 
 @media screen and (min-width: 768px){
